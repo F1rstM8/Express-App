@@ -1,0 +1,17 @@
+# Зависимости (самое главное!)
+node_modules/
+
+# Логи
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Файлы с секретными переменными окружения (пароли, ключи БД)
+.env
+.env.local
+
+# Системные файлы macOS и Windows
+.DS_Store
+Thumbs.db
